@@ -1,0 +1,1 @@
+.\llama-server.exe --model .\models\qwen2.5-coder-1.5b-instruct-q4_0.gguf

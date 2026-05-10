@@ -83,7 +83,7 @@ ollama run qwen
 
 После запуска API доступен:
 
-http://localhost:11434
+http://localhost:8080
 Install Backend Dependencies
 ```
 pip install -r requirements.txt
