@@ -1,0 +1,72 @@
+# Model files (GGUF, bin, etc.)
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/build
+/dist
+/.next
+
+# Backend uploads, temporary files
+uploads/
+temp/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Package managers
+package-lock.json  # если хотите игнорировать (обычно коммитят)
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled outputs
+*.exe
+*.dll
+*.so
+*.dylib
