@@ -95,7 +95,7 @@ pip install -r requirements.txt
 # 4. Usage
 API Example
 ```
-curl http://localhost:11434/api/generate -d '{
+curl http://localhost:8080/api/generate -d '{
   "model": "qwen",
   "prompt": "Напиши калькулятор на Python"
 }'
